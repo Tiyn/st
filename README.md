@@ -13,6 +13,9 @@ The list below shows the currently applied patches to the master branch.
 ## Hotkeys
 There are various shortcuts and hotkeys used in this version. Included in my build are the following.
 ```
+Alt +         Break        ->    Send break
+Ctr +         Print        ->    Toggle printer
+      Shift + Print        ->    Print screen
       Shift + Insert       ->    Clipboard paste
 Alt +         c            ->    Clipboard copy
 Alt +         v            ->    Clipboard paste
