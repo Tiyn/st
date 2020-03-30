@@ -178,10 +178,9 @@ static MouseShortcut mshortcuts[] = {
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
-	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
-	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
-	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
-	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
+	{ MODKEY,				XK_Break,       sendbreak,      {.i =  0} },
+	{ MODKEY,				XK_Print,       toggleprinter,  {.i =  0} },
+	{ MODKEY,				XK_Print,       printscreen,    {.i =  0} },
 	{ ShiftMask,            XK_Insert,      clippaste,      {.i =  0} },
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
@@ -189,9 +188,9 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },
 	{ MODKEY,	            XK_k,           kscrollup,		{.i =  1} },
 	{ MODKEY,	            XK_j,           kscrolldown,	{.i =  1} },
-	{ TERMMOD,              XK_U,           zoom,           {.f = +1} },
-	{ TERMMOD,              XK_U,           zoom,           {.f = +1} },
-	{ TERMMOD,              XK_I,           zoom,           {.f = -1} },
+	{ MODKEY,				XK_U,           zoom,           {.f = +1} },
+	{ MODKEY,				XK_U,           zoom,           {.f = +1} },
+	{ MODKEY,				XK_I,           zoom,           {.f = -1} },
 };
 
 /*
