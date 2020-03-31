@@ -5,10 +5,10 @@ It is supposed to work in the environment after the larbs-base-installation.
 
 ## Patches
 The list below shows the currently applied patches to the master branch.
-- st-alpha-0.8.2.diff
-- st-anysize-0.8.1.diff
-- st-font2-20190416-ba72400.diff
-- st-scrollback-0.8.2.diff
+- st-alpha-0.8.2.diff (adds transparency)
+- st-anysize-0.8.1.diff (st leaves no gaps if the height/width doesn't match a multiple of character height)
+- st-font2-20190416-ba72400.diff (allows to set multiple spare fonts as fallback)
+- st-scrollback-0.8.2.diff (add scrollback functionality)
 
 ## Hotkeys
 There are various shortcuts and hotkeys used in this version. Included in my build are the following.
