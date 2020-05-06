@@ -5,7 +5,7 @@
 
 # Maintainer: Marten Kante <tiyn@martenkante.eu>
 pkgname=st-tiyn-git
-pkgver=0.8.3
+pkgver=0.8.3.r25.b33c538
 pkgrel=1
 epoch=
 pkgdesc="This is the st build of tiyn. It includes the alpha, anysize, font2, scrollback patches."
