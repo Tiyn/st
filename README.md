@@ -32,9 +32,10 @@ There are various shortcuts and hotkeys used in this version. Included in my bui
 To install this package you can run several commands.
 
 ### AUR with helper
-If youre on Arch you can use the Arch User Repository.
+If you're on Arch you can use the Arch User Repository.
 For simplicity you can use a AUR-helper such as yay.
 - `yay -S st-tiyn-git`
+
 Or you can clone it and run it by makepkg.
 - `git clone https://aur.archlinux.org/st-tiyn-git.git`
 - `makepkg -sirc`
