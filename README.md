@@ -27,3 +27,19 @@ There are various shortcuts and hotkeys used in this version. Included in my bui
 | Alt    |       | j				 | Scroll down        |
 | Alt    | Shift | u				 | Zoom in            |
 | Alt    | Shift | i				 | Zoom out           |
+
+## Installation
+To install this package you can run several commands.
+
+### AUR with helper
+If youre on Arch you can use the Arch User Repository.
+For simplicity you can use a AUR-helper such as yay.
+- `yay -S st-tiyn-git`
+Or you can clone it and run it by makepkg.
+- `git clone https://aur.archlinux.org/st-tiyn-git.git`
+- `makepkg -sirc`
+
+### MAKE
+The most basic way is to clone the repository and then invoke make.
+- `git clone https://github.com/tiyn/st`
+- `make clean install`
