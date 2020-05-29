@@ -1,0 +1,6 @@
+*.o
+*.orig
+*.1
+st
+pkg
+*.pkg.tar.xz
