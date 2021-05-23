@@ -167,30 +167,29 @@ static uint forcemousemod = ShiftMask;
  * Beware that overloading Button1 will disable the selection.
  */
 static MouseShortcut mshortcuts[] = {
-	/* mask                 button   function        argument       release */
-	{ Button4,              XK_NO_MOD,      "\031" },
-	{ Button5,              XK_NO_MOD,      "\005" },
+	/* mask                 button      function    argument    release */
+	{ Button4,              XK_NO_MOD,  "\031" },
+	{ Button5,              XK_NO_MOD,  "\005" },
 };
 
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
-#define TERMMOD (ControlMask|ShiftMask)
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
-	{ MODKEY,				XK_Break,       sendbreak,      {.i =  0} },
-	{ MODKEY,				XK_Print,       toggleprinter,  {.i =  0} },
-	{ MODKEY,				XK_Print,       printscreen,    {.i =  0} },
+	{ MODKEY,		XK_Break,       sendbreak,      {.i =  0} },
+	{ MODKEY,		XK_Print,       toggleprinter,  {.i =  0} },
+	{ MODKEY,		XK_Print,       printscreen,    {.i =  0} },
 	{ ShiftMask,            XK_Insert,      clippaste,      {.i =  0} },
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ MODKEY,               XK_p,           selpaste,       {.i =  0} },
 	{ MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,	            XK_k,           kscrollup,		{.i =  1} },
-	{ MODKEY,	            XK_j,           kscrolldown,	{.i =  1} },
-	{ MODKEY,				XK_U,           zoom,           {.f = +1} },
-	{ MODKEY|ShiftMask,		XK_U,           zoom,           {.f = +1} },
-	{ MODKEY|ShiftMask,		XK_I,           zoom,           {.f = -1} },
+	{ MODKEY,	        XK_k,           kscrollup,	{.i =  1} },
+	{ MODKEY,	        XK_j,           kscrolldown,	{.i =  1} },
+	{ MODKEY,		XK_U,           zoom,           {.f = +1} },
+	{ MODKEY|ShiftMask,	XK_U,           zoom,           {.f = +1} },
+	{ MODKEY|ShiftMask,	XK_I,           zoom,           {.f = -1} },
 };
 
 /*
