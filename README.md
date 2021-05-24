@@ -1,6 +1,8 @@
 # st
 
 This is my patched version of st. The base version is directly from suckless.org.
+This belongs to my larbs installation script, but does not directly depend on it.
+It is supposed to work in the environment after the larbs-base-installation.
 
 ## Patches
 
@@ -15,20 +17,22 @@ The list below shows the currently applied patches to the master branch.
 
 There are various shortcuts and hotkeys used in this version. Included in my build are the following.
 
-| ModKey | Shift | Key     | Function        |
-|--------|-------|---------|-----------------|
-| Alt    |       | Break   | Send break      |
-| Alt    |       | Print   | Toggle printer  |
-| Alt    |       | Print   | Print screen    |
-|        | Shift | Insert  | Clipboard paste |
-| Alt    |       | c       | Clipboard copy  |
-| Alt    |       | v       | Clipboard paste |
-| Alt    |       | p       | Selected paste  |
-| Alt    |       | NumLock | Toggle Numlock  |
-| Alt    |       | k       | Scroll up       |
-| Alt    |       | j       | Scroll down     |
-| Alt    | Shift | u       | Zoom in         |
-| Alt    | Shift | i       | Zoom out        |
+| ModKey | Shift | Key             | Function        |
+| ------ | ----- | --------------- | --------------- |
+| Alt    |       | Break           | Send break      |
+| Alt    |       | Print           | Toggle printer  |
+| Alt    |       | Print           | Print screen    |
+|        | Shift | Insert          | Clipboard paste |
+| Alt    |       | c               | Clipboard copy  |
+| Alt    |       | v               | Clipboard paste |
+| Alt    |       | p               | Selected paste  |
+| Alt    |       | NumLock         | Toggle Numlock  |
+| Alt    |       | k               | Scroll up       |
+| Alt    |       | j               | Scroll down     |
+|        |       | MouseScrollUp   | Scroll up       |
+|        |       | MouseScrollDown | Scroll down     |
+| Alt    | Shift | u               | Zoom in         |
+| Alt    | Shift | i               | Zoom out        |
 
 ## Installation
 
